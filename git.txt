@@ -3,3 +3,30 @@ git add .
 git commit -m "added paragraph"
 
 git push
+
+
+//////////////////////////
+Git branch:
+to know about git branches:
+> git branch
+
+added new git branch:
+> git branch image-add
+
+switch to another branch:
+> $ git checkout image-add
+
+------- push new added item through new branch--------------
+$ git add .
+$ git commit -m "Added my image"
+$ git push 
+
+// if github doesn't have this branch currently 
+$ git push --set-upstream origin image-add
+
+//move to main branch
+$ git checkout main
+
+// merge all the branches in the main branch
+$ git merge image-add
+$ git push
