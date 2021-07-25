@@ -1,0 +1,43 @@
+        .blog-summer{
+            background-color: rgb(155, 204, 245);
+            border: 2px solid yellow;
+            border-radius: 15px;
+            margin: 20px 10px 50px 10px;
+            padding: 20px 50px 10px 50px;
+        }
+        .author-name{
+            color: rgb(114, 10, 10);
+        }
+        .blog-winter{
+            background-color: rgb(240, 180, 162); 
+            border: 2px dashed rgb(64, 126, 240);
+            padding: 20px 50px 10px 50px;
+            border-radius: 15px;
+            margin: 20px 10px 50px 10px;
+        }
+        .blog-title{
+            text-align: center;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: 1000;
+        }
+        h3{
+            color: rgb(94, 54, 39);
+        }
+        body{
+            background-color: rgb(143, 238, 18);
+        }
+        img{
+            height: 400px;
+            width: 600px;
+        }
+        .blog-summer p{
+            color: rgb(85, 55, 0);
+            text-align: justify;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .blog-winter p{
+            color: rgb(10, 4, 92);
+            text-align: justify;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
