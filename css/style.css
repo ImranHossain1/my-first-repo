@@ -29,6 +29,7 @@
         img{
             height: 400px;
             width: 600px;
+            align-items: center;
         }
         .blog-summer p{
             color: rgb(85, 55, 0);
@@ -40,4 +41,10 @@
             text-align: justify;
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
 
